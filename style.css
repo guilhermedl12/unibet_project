@@ -7,12 +7,12 @@
 }
 
 body {
-    background-color: #001d34;
+    background-color: #092037;
     color: white;
 }
 
 header {
-    background-color: #003A6B;
+    background-color: #0c161f;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,14 +21,9 @@ header {
 }
 
 .titulo {
-    color: orangered;
+    color: #bc9d53;
     font-weight: bolder;
     font-size: 75px;
-    text-shadow:
-        0px 0px 10px #ffffff,
-        0px 0px 10px #ffc889,
-        0px 0px 10px #fa8807,
-        0px 0px 10px #ff941a;
     font-family: Impact, fantasy;
 }
 
@@ -42,7 +37,7 @@ nav {
     align-items: center;
     gap: 45px;
     height: 45px;
-    margin-top: 10px;
+    margin: 10px 0 10px 0;
 }
 
 nav a {
@@ -54,10 +49,9 @@ nav a {
 
 .nfl_img img {
     display: block;
-    width: 80%;
+    width: 100%;
     height: auto;
-    border-radius: 35px;
-    margin: 10px auto;
+    
 }
 
 .title-pag {
@@ -72,7 +66,7 @@ nav a {
 hr {
     width: 2%;
     margin: 10px auto 20px;
-    border: 1px solid #001d34;
+    border: 1px solid #0c161f;
 }
 
 .text_cont {
@@ -80,7 +74,7 @@ hr {
     margin: 0 auto 30px;
     text-align: center;
     font-size: 15px;
-    color: #001d34;
+    color: #0c161f;
 }
 
 /* Novo container para organizar os cards lado a lado */
@@ -92,7 +86,7 @@ hr {
 }
 
 .card {
-    background-color: #003A6B;
+    background-color: #092037;
     width: 300px;
     padding: 20px;
     border-radius: 8px;
