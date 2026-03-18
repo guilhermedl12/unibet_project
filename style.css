@@ -6,7 +6,7 @@
 }
 
 body {
-    color:white;
+    color: white;
     background-color: #001d34;
 }
 
@@ -51,7 +51,7 @@ nav a {
     display: block;
     width: 100%;
     height: auto;
-    
+
 }
 
 .title-pag {
@@ -103,7 +103,8 @@ article p {
     margin-top: 10px;
 }
 
-ul, ol{
+ul,
+ol {
     background-color: #092037;
     width: 66%;
     padding: 35px 45px;
@@ -111,11 +112,11 @@ ul, ol{
     color: azure;
 }
 
-h4{
+h4 {
     text-align: center;
 }
 
-.container-media{
+.container-media {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,16 +147,26 @@ h4{
     color: #001d34;
 }
 
-input{
-    padding: 05px;
-    width: 30%;;
+input {
+    padding: 08px;
+    width: 30%;
+    ;
     border: 0.5px solid #bdd9ff;
     border-radius: 05px;
     color: #001d34;
 }
+
 form {
     color: #001d34;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao {
+    background-color: #1a3a5a;
+    color: white;
+    width: 150px;
+    margin-bottom: 25px;
 }
