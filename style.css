@@ -2,13 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* Essencial para layout */
     font-family: "Google Sans", sans-serif;
 }
 
 body {
-    background-color: #092037;
-    color: white;
+    color:white;
+    background-color: #001d34;
 }
 
 header {
@@ -38,6 +37,7 @@ nav {
     gap: 45px;
     height: 45px;
     margin: 10px 0 10px 0;
+    background-color: #001d34;
 }
 
 nav a {
@@ -101,4 +101,61 @@ main {
 article p {
     font-size: 15px;
     margin-top: 10px;
+}
+
+ul, ol{
+    background-color: #092037;
+    width: 66%;
+    padding: 35px 45px;
+    border-radius: 8px;
+    color: azure;
+}
+
+h4{
+    text-align: center;
+}
+
+.container-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0px;
+    flex-direction: column;
+}
+
+.bonus-table {
+    width: 53%;
+    border-collapse: collapse;
+    text-align: center;
+    display: table;
+    margin: 20px auto;
+}
+
+.bonus-table th {
+    background-color: #051321;
+    padding: 15px;
+    font-size: 0.9rem;
+    color: #fefefe;
+    text-transform: uppercase;
+}
+
+.bonus-table td {
+    padding: 15px;
+    border-bottom: 1px solid #1a3a5a;
+    font-weight: bold;
+    color: #001d34;
+}
+
+input{
+    padding: 05px;
+    width: 30%;;
+    border: 0.5px solid #bdd9ff;
+    border-radius: 05px;
+    color: #001d34;
+}
+form {
+    color: #001d34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
