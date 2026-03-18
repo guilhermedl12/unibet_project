@@ -169,3 +169,10 @@ form {
     width: 150px;
     margin-bottom: 25px;
 }
+
+footer .rodape {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
